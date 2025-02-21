@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 52px;
+}
+
+.header__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: rgba(0, 159, 245, 0.71);
+    box-shadow: 0px 4px 4px 0px rgba(218, 211, 255, 1);
+    border: transparent;
+    border-radius: 5px;
+    width: 243px;
+    padding: 10px 0;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header__text {
+    text-shadow: 0px 4px 4px #FC0;
+}
+
+.header {
+    background-image: url(./image\ 1\ \(1\).png);
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.mein {
+    width: 400px;
+    height: 70px;
+    background-color: #FC0;
+    border-radius: 50px;
+    border: 10px solid #5A5555;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
+.mein p {
+    text-shadow: 0.8px 4px 4px  #0047FF;
+
+}
+
+
+.main__section {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ma__in{
+    display: flex;
+    justify-content: center;
+    gap: 100px ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.ma__in img{
+    box-shadow:  10px 4px 20px  rgba(218, 211, 255, 1);
+    border-radius: 10px;
+    height: 400px;
+
+}
+.main-card{
+    text-align: center;
+    color: #fff;
+    background-color: #1F1F1F;
+   border-radius: 0px;
+    
+  
+}
+.main-card h2{
+    padding: 0 auto;
+    margin-top: 10px;
+    height: 40px;
+    text-shadow:  12px 5px 2px  #FFC200;
+}
+
+
+.info{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+    background-color: #000;
+    padding-bottom: 50px;
+}
+
+.right p{
+    width: 663px;
+    background-color: #000;
+    color: #fff;
+    font-size: 30px;
+}
+.right button{
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nayan__marz h1{
+    font-size: 72px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+
+} 
+.right{
+    color: white;
+
+}
+
+.manga{
+    height: 61px;
+    width: 278px;
+    margin-top:40px;
+    background-color: #FFC200;
+    box-shadow: -9px 7px 15px #fff ;
+}
+.haniki{
+    background-color: #FFC200;  
+    box-shadow:  12px 5px 10px  #fff;
+    color: #000;
+}
+.maniki{
+    box-shadow:  12px 5px 10px  #fff;
+    background-color:   #535353;
+    color: #fff;
+}
+.main{
+    padding: 1px;
+    background-color:#FFC611;
+    display: flex;
+    justify-content: space-between;
+}
+.internet{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   padding-right: 15px;
+}
+.internet img{
+    width: 30px;
+    height: 30px;
+}
